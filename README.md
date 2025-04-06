@@ -18,7 +18,7 @@ python -m venv venv
 venv\Scripts\activate
 
 # Install dependencies
-pip install langchain langchain-community pypdf "unstructured[pdf]" pdfminer.six
+pip install -r requirements.txt
 ```
 
 ## Document Loaders
