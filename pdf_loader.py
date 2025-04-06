@@ -1,6 +1,6 @@
 from langchain_community.document_loaders import PyPDFLoader
 
-loader = PyPDFLoader("books/hpsc.pdf")
+loader = PyPDFLoader("books/sicp.pdf")
 
 docs = loader.load()
 
